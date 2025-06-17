@@ -1,6 +1,6 @@
 
 
-num =int(input("Enter number"))
+num =int(input("Enter number = "))
 
 print("select operation\n"
 "1 Square\n"
