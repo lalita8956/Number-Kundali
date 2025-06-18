@@ -1,5 +1,6 @@
 
 
+print("Number Kundali...!")
 num =int(input("Enter number = "))
 
 print("select operation\n"
@@ -12,27 +13,27 @@ c = int(input("select operation = "))
 
 if (c==1):
     sqr = num ** 2
-    print("Square",sqr)
+    print("Square of ",num,"is",sqr)
 
 elif (c==2):
     cub = num ** 3
-    print("Cube",cub)
+    print("Cube of ",num,"is",cub)
 
 elif (c==3):
     fact=1
     for i in range(1,num+1):
         fact=fact*i
-        print("factorial",fact)
+    print("factorial of ",num,"is",fact)
 
 elif(c==4):
     square_root =math.sqrt(num)
-    print("Square root",square_root)
+    print("Square root of ",num,"is",square_root)
 
 elif(c==5):
     if(num%2==0):
-        print("Even number")
+        print(c," is Even number")
     else:
-         print("Odd number")
+         print(c,"is Odd number")
 from root import *
 
 
