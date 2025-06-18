@@ -1,3 +1,4 @@
+from root import *
 
 
 print("Number Kundali...!")
@@ -34,7 +35,7 @@ elif(c==5):
         print(c," is Even number")
     else:
          print(c,"is Odd number")
-from root import *
+         
 
 
 
